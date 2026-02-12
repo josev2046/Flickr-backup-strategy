@@ -1,6 +1,6 @@
 # Flickr high-fidelity backup
 
-A Python utility designed to archive a complete Flickr photostream at maximum quality while preserving all associated metadata.
+A quick Python hack designed to archive a complete Flickr photostream at maximum quality while preserving all associated metadata.
 
 ## Overview
 This script automates the retrieval of original files and data from the Flickr API. It is designed to ensure that every image is paired with a comprehensive JSON sidecar file containing community interactions and technical metadata.
@@ -19,9 +19,6 @@ This script automates the retrieval of original files and data from the Flickr A
 * **Python 3.11+**
 * **Flickr API Key and Secret**: Required for OAuth authentication.
 * **Flickr Pro (Optional)**: Recommended for accessing original resolution files via the API.
-
-## Installation
-`pip install flickrapi`
 
 ## Execution
 1. Open the script and enter your credentials into the `API_KEY` and `API_SECRET` variables.
@@ -42,3 +39,4 @@ The script verifies the OAuth token upon initiation. Once validated, it identifi
 
 ## Disclaimer
 This tool is intended for personal archival use. Users should ensure compliance with Flickr's API Terms of Service regarding rate limits and data usage.
+
